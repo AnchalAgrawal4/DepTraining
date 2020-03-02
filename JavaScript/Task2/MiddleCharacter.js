@@ -3,7 +3,8 @@
 function getMiddle(str)
 {
   var position, length;
-  if ((str.length % 2) == 0) {
+  var calcLength=str.length%2;
+  if (calcLength == 0) {
     position = str.length / 2 - 1;
     length = 2;
   } else {
