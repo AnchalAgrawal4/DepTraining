@@ -1,4 +1,4 @@
-http://www.codewars.com/kata/calculating-with-functions
+//http://www.codewars.com/kata/calculating-with-functions
 
 function zero() {return arguments.length === 1 ? arguments[0](0) : 0; }
 function one() { return arguments.length === 1 ? arguments[0](1) : 1; }
