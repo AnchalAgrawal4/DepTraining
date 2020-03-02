@@ -1,3 +1,5 @@
+//http://www.codewars.com/kata/transportation-on-vacation
+
 function rentalCarCost(d) {
 amount=d*40;
     if(d>=3 && 7>d ) amount=amount-20;
