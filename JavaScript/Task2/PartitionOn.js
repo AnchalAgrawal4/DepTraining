@@ -1,4 +1,4 @@
-http://www.codewars.com/kata/partition-on
+//http://www.codewars.com/kata/partition-on
 
 function partitionOn(pred, items) {
     var predicateTrue = items.filter(pred);
