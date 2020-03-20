@@ -9,6 +9,7 @@ Array.prototype.cube = function() {
 };
 
 Array.prototype.average = function() {
+   if (this.length == 0) return NaN;
   return this.sum() / this.length;
 };
 
