@@ -2,12 +2,10 @@
 
 //Solution 1:
 function createFunctions(n) {
-  let callbacks = [];
+  const callbacks = [];
 
   for (let i = 0; i < n; i++) {
-    callbacks.push(function() {
-      return i;
-    });
+    callbacks.push( => i);
   }
 
   return callbacks;
@@ -22,7 +20,6 @@ function createFunctions(n) {
     (function() {
       var j = i;
       callbacks.push(function() {
-        console.log(j);
         return j;
       });
     })();
