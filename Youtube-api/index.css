@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    height: 2.5vw;
+}
+
+.logo{
+    width:6.5vw;
+    margin-right: 0.5vw;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.cards{
+   justify-content: space-between;
+   margin:30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:15vw;
+    word-wrap: break-word;
+}
+
+.cards:hover{
+transform: scale(1.1);
+}
+
+.videoImage{
+    width: 14vw;
+}
+img{
+    width: 100%;
+}
+span{
+    width:100%;
+}
+p{
+    width:100%
+}
+
+.paginationButton {
+        font-size: 1vw;
+        transition-duration: 0.4s;
+        cursor: pointer;     
+        background-color: white; 
+        color: black; 
+        border: 1.5px solid #fe0000;
+        height: 2.5vw;
+      }
+      
+.paginationButton:hover {
+        background-color:#fe0000 ;
+        color: white;
+      }
+
+#videoLink{
+    width:100%;
+}
+
+#searchButton{
+            font-size: 1.1vw;
+            background-color: white; 
+            color: black; 
+            border: 1px solid gray;
+      }
+
+#searchBox{
+    width:75%;
+    border: 1px solid gray;
+    
+    font-size: 1.1vw;
+}
+      
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+}
