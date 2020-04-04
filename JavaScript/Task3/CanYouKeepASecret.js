@@ -2,10 +2,10 @@
 
 function createSecretHolder(secret) {
   return {
-    getSecret: function() {
+    getSecret: () => {
       return secret;
     },
-    setSecret: function(v) {
+    setSecret: (v) => {
       secret = v;
     }
   };
